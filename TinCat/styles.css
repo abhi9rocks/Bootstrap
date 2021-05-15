@@ -94,7 +94,12 @@ p{
 .press-logo{
 
   margin: 0 10px;
+}
 
-
-
+#pricing{
+  padding: 80px;
+  text-align: center;
+}
+.pricing-coloumn{
+  padding:3% 2%;
 }

@@ -15,6 +15,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <!-- this below link has been inserted because card deck was not working  -->
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
@@ -95,15 +97,15 @@
   <section id="testimonials">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
       <div class="carousel-inner">
-        <div class="carousel-item active" >
+        <div class="carousel-item active">
 
           <h2>"I no longer have to sniff other cats for love. I've found the hottest catto on tinPurr. Meow." </h2>
           <img class="testi-image" src="cat-img.jpg" alt="cat profile" width="400"><br>
           <em>Oreo, Allahabad</em>
 
         </div>
-        <div class="carousel-item" >
-          <h2>"There are no accidents, tinPurr is a blessing for cats I'm truely happy in a long time <3" </h2>
+        <div class="carousel-item">
+          <h2>"There are no accidents, tinPurr is a blessing for cats I'm truely happy in a long time" </h2>
           <img class="testi-image" src="cat-img2.jpg" alt="cat profile" width="400"><br>
           <em>Meow, Allahabad</em>
 
@@ -136,21 +138,54 @@
     <h2>A Plan for Every Cat's Needs</h2>
     <p>Simple and affordable plans for you and your cat.</p>
 
-    <h3>Persian</h3>
-    <h2>Free</h2>
-    <p>5 matches per day</p>
-    <p>10 Messages per day</p>
-    <p>Unlimted App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="row">
 
-    <h3>ScottishFold</h3>
-    <h2>$49.99</h2>
-    <p>Unlimited Matches</p>
-    <p>unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="pricing-coloumn col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Persian</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 matches per day</p>
+            <p>10 Messages per day</p>
+            <p>Unlimted App Usage</p>
+              <button type="button" class="btn btn-lg w-100 btn-outline-dark">Sign Up Now</button>
+          </div>
+        </div>
+      </div>
 
+      <div class="pricing-coloumn col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>ScottishFold</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49.99</h2>
+            <p>Unlimited Matches</p>
+            <p>unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg w-100 btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
+      <div class="pricing-coloumn col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Toyger</h3>
+          </div>
+          <div class="card-body">
+            <h2>$29.99</h2>
+            <p>Priority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg w-100 btn-primary">Sign Up</button>     <!--w-100 is used in bootstrap 5 to make the butten fill horizontal -->
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
   <section id="cta">
