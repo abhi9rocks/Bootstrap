@@ -71,15 +71,18 @@ p{
 }
 /* Testimonial Section */
 #testimonials{
-    padding:5% 15%;
+
     text-align: center;
     background-color: #ef8474;
     color: #fff;
 }
+.carousel-item{
+    padding:6% 15%;
+}
 .testi-image{
 
   width: 10%;
-  border-radius: 50%;
+  border-radius: 80%;
   margin: 20px;
 }
 #press{
@@ -89,7 +92,7 @@ p{
 
 }
 .press-logo{
-  
+
   margin: 0 10px;
 
 
